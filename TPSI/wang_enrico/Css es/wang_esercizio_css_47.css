@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Cambia lo sfondo se desideri */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permette il wrapping degli elementi */
+    max-width: 600px; /* Limita la larghezza massima */
+    margin: 20px;
+}
+
+.box {
+    background-color: #4a90e2; /* Colore di sfondo */
+    color: white; /* Colore del testo */
+    padding: 10px 20px; /* Padding interno */
+    margin: 5px; /* Margine tra i box */
+    border-radius: 5px; /* Angoli arrotondati */
+    text-align: center; /* Allinea il testo al centro */
+    flex: 1 1 auto; /* Permette a ogni box di adattarsi */
+}
